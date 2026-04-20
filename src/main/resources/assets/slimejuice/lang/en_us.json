@@ -1,7 +1,7 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
-  "block.examplemod.example_block": "Example Block",
   "item.slimejuice.slime_cube": "Slime Cube",
+  "item.slimejuice.slime_juice": "Slime Juice",
+  "creativetab.slimejuice.slime_juice_items": "Slime Juice Items",
 
   "examplemod.configuration.title": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",

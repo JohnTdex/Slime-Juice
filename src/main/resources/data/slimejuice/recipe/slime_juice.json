@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##u",
+    "##G",
+    "SSS"
+  ],
+  "key": {
+    "#": {
+      "item": "slimejuice:slime_cube"
+    },
+    "u": {
+      "item": "minecraft:milk_bucket"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "slimejuice:slime_juice"
+  }
+}
