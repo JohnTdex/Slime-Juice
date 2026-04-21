@@ -42,12 +42,11 @@ displayName="${mod_name}" #mandatory
 #credits="" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-#authors=""
+authors="Lyron18th"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 A mod that adds slime juice (inspired from Philippine's Buko Pandan flavored gulaman).
-Created by Lyron18th(formerly JohnTdex)
 
 '''
 
