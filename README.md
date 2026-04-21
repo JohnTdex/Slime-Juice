@@ -9,5 +9,6 @@ Slime Juice mod adds an edible and drinkable items called Slime Cube and Slime J
 either a jump boost, speed boost or... BOTH!
 
 ================================
+
 Created by yours truly, Lyron18th.
 Hope you enjoy this simple mod!
