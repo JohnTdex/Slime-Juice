@@ -1,6 +1,6 @@
 
 Slime Juice
-<img width="2048" height="2048" alt="SlimeJuice" src="https://github.com/user-attachments/assets/d1acd510-1509-4dd3-929e-5e31807ff08b" />
+<img width="256" height="256" alt="SlimeJuice" src="https://github.com/user-attachments/assets/d1acd510-1509-4dd3-929e-5e31807ff08b" />
 ====================================================
 
 
