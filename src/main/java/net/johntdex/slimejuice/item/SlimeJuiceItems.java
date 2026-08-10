@@ -14,6 +14,8 @@ public class SlimeJuiceItems {
             () -> new Item(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMECUBE)));
     public static final DeferredItem<Item> SLIMEJUICE = ITEMS.register("slime_juice",
             () -> new DrinkableItem(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMEJUICE)));
+    public static final DeferredItem<Item> GLASS_CUP = ITEMS.register("glass_cup",
+            () -> new Item(new Item.Properties().stacksTo(16)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -20,6 +20,7 @@ public class SlimeJuiceCreativeTab {
                     .displayItems(((parameters, output) -> {
                         output.accept(SlimeJuiceItems.SLIMECUBE);
                         output.accept(SlimeJuiceItems.SLIMEJUICE);
+                        output.accept(SlimeJuiceItems.GLASS_CUP);
                     }))
 
 

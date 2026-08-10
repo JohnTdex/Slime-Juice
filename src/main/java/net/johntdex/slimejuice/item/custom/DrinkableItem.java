@@ -1,5 +1,6 @@
 package net.johntdex.slimejuice.item.custom;
 
+import net.johntdex.slimejuice.item.SlimeJuiceItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.LivingEntity;
@@ -31,7 +32,7 @@ public class DrinkableItem extends Item {
         ItemStack result = super.finishUsingItem(stack, level, entity);
 
         if (entity instanceof Player player && !player.getAbilities().instabuild) {
-            ItemStack bottle = new ItemStack(Items.GLASS_BOTTLE);
+            ItemStack bottle = new ItemStack(SlimeJuiceItems.GLASS_CUP.get());
 
             if (!player.getInventory().add(bottle)) {
                 player.drop(bottle, false);
