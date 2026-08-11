@@ -2,6 +2,7 @@ package net.johntdex.slimejuice.item;
 
 import net.johntdex.slimejuice.SlimeJuice;
 import net.johntdex.slimejuice.item.custom.DrinkableItem;
+import net.johntdex.slimejuice.item.custom.MilkBottleItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -16,6 +17,16 @@ public class SlimeJuiceItems {
             () -> new DrinkableItem(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMEJUICE)));
     public static final DeferredItem<Item> GLASS_CUP = ITEMS.register("glass_cup",
             () -> new Item(new Item.Properties().stacksTo(16)));
+    public static final DeferredItem<Item> MILK_BOTTLE = ITEMS.register("milk_bottle",
+            () -> new MilkBottleItem(new Item.Properties().stacksTo(16)));
+    public static final DeferredItem<Item> WHITE_FOOD_COLORING = ITEMS.register("white_food_coloring",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> LIGHT_GREY_FOOD_COLORING = ITEMS.register("light_grey_food_coloring",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GREY_FOOD_COLORING = ITEMS.register("grey_food_coloring",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DARK_FOOD_COLORING = ITEMS.register("dark_food_coloring",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
+    "C": {
       "item": "minecraft:slime_ball"
     },
     "S": {
@@ -10,8 +10,8 @@
     }
   },
   "pattern": [
-    "##S",
-    "##S",
+    "CCS",
+    "CCS",
     "SSS"
   ],
   "result": {

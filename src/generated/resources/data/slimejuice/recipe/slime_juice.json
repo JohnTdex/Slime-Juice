@@ -1,24 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##u",
-    "##G",
-    "SSS"
-  ],
+  "category": "misc",
   "key": {
-    "#": {
+    "C": {
       "item": "slimejuice:slime_cube"
-    },
-    "u": {
-      "item": "minecraft:milk_bucket"
     },
     "G": {
       "item": "slimejuice:glass_cup"
+    },
+    "M": {
+      "tag": "c:drinks/milk"
     },
     "S": {
       "item": "minecraft:sugar"
     }
   },
+  "pattern": [
+    "CCM",
+    "CCG",
+    "SSS"
+  ],
   "result": {
     "count": 1,
     "id": "slimejuice:slime_juice"

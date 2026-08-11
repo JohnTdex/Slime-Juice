@@ -24,7 +24,7 @@ public class DrinkableItem extends Item {
 
     @Override
     public SoundEvent getEatingSound() {
-        return SoundEvents.HONEY_DRINK; // or GENERIC_DRINK
+        return SoundEvents.HONEY_DRINK;
     }
 
     @Override
