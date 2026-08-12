@@ -3,5 +3,12 @@
   "item.slimejuice.slime_juice": "Slime Juice",
   "item.slimejuice.glass_cup": "Glass Cup",
   "item.slimejuice.milk_bottle": "Milk Bottle",
-  "creativetab.slimejuice.slimejuice_items": "Slime Juice Items"
+  "creativetab.slimejuice.slimejuice_items": "Slime Juice Items",
+
+  "item.slimejuice.dark_food_coloring": "Dark Food Coloring",
+  "item.slimejuice.grey_food_coloring": "Grey Food Coloring",
+  "item.slimejuice.light_grey_food_coloring": "Light Grey Food Coloring",
+  "item.slimejuice.white_food_coloring": "White Food Coloring",
+
+  "item.slimejuice.white_slime_cube": "White Slime Cube"
 }

@@ -12,9 +12,11 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.crafting.Recipe;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
+import java.awt.*;
 import java.util.concurrent.CompletableFuture;
 
 public class SlimeJuiceRecipe extends RecipeProvider implements IConditionBuilder {
@@ -66,6 +68,50 @@ public class SlimeJuiceRecipe extends RecipeProvider implements IConditionBuilde
                 .requires(Items.GLASS_BOTTLE)
                 .unlockedBy("has_glass_bottle", has(Items.GLASS_BOTTLE))
                 .save(recipeOutput, prefix("glass_cup"));
+
+        //Shaped Recipe for Food Coloring
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SlimeJuiceItems.WHITE_FOOD_COLORING.get(), 1)
+                .pattern("DS")
+                .pattern("SS")
+                .define('S', Ingredient.of(Items.SUGAR))
+                .define('D', Ingredient.of(Items.WHITE_DYE))
+                .unlockedBy("has_white_dye", has(Items.WHITE_DYE))
+                .save(recipeOutput, prefix("white_food_coloring"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SlimeJuiceItems.LIGHT_GREY_FOOD_COLORING.get(), 1)
+                .pattern("DS")
+                .pattern("SS")
+                .define('S', Ingredient.of(Items.SUGAR))
+                .define('D', Ingredient.of(Items.LIGHT_GRAY_DYE))
+                .unlockedBy("has_light_gray_dye", has(Items.LIGHT_GRAY_DYE))
+                .save(recipeOutput, prefix("light_grey_food_coloring"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SlimeJuiceItems.GREY_FOOD_COLORING.get(), 1)
+                .pattern("DS")
+                .pattern("SS")
+                .define('S', Ingredient.of(Items.SUGAR))
+                .define('D', Ingredient.of(Items.GRAY_DYE))
+                .unlockedBy("has_gray_dye", has(Items.GRAY_DYE))
+                .save(recipeOutput, prefix("grey_food_coloring"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SlimeJuiceItems.DARK_FOOD_COLORING.get(), 1)
+                .pattern("DS")
+                .pattern("SS")
+                .define('S', Ingredient.of(Items.SUGAR))
+                .define('D', Ingredient.of(Items.BLACK_DYE))
+                .unlockedBy("has_black_dye", has(Items.BLACK_DYE))
+                .save(recipeOutput, prefix("dark_food_coloring"));
+
+        //Recipe for Colored Slime Cubes
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, SlimeJuiceItems.WHITE_SLIMECUBE.get(), 4)
+                .pattern("F  ")
+                .pattern("SS ")
+                .pattern("SS ")
+                .define('S', Ingredient.of(SlimeJuiceItems.SLIMECUBE.get()))
+                .define('F', Ingredient.of(SlimeJuiceItems.WHITE_FOOD_COLORING.get()))
+                .unlockedBy("has_slime_cube", has(SlimeJuiceItems.WHITE_FOOD_COLORING.get()))
+                .save(recipeOutput, prefix("white_slime_cube"));
 
     }
 

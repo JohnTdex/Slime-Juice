@@ -19,6 +19,8 @@ public class SlimeJuiceItems {
             () -> new Item(new Item.Properties().stacksTo(16)));
     public static final DeferredItem<Item> MILK_BOTTLE = ITEMS.register("milk_bottle",
             () -> new MilkBottleItem(new Item.Properties().stacksTo(16)));
+
+    //Food Coloring
     public static final DeferredItem<Item> WHITE_FOOD_COLORING = ITEMS.register("white_food_coloring",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> LIGHT_GREY_FOOD_COLORING = ITEMS.register("light_grey_food_coloring",
@@ -27,6 +29,11 @@ public class SlimeJuiceItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> DARK_FOOD_COLORING = ITEMS.register("dark_food_coloring",
             () -> new Item(new Item.Properties()));
+
+
+    //Colored Slime cubes
+    public static final DeferredItem<Item> WHITE_SLIMECUBE = ITEMS.register("white_slime_cube",
+            () -> new Item(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMECUBE)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

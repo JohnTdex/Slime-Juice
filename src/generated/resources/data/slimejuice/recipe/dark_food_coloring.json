@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:black_dye"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "DS",
+    "SS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "slimejuice:dark_food_coloring"
+  }
+}

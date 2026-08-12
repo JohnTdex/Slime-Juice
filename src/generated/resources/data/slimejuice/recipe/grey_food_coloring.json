@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:gray_dye"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "DS",
+    "SS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "slimejuice:grey_food_coloring"
+  }
+}

@@ -12,4 +12,5 @@ public class SlimeJuiceFoodProperties {
             .build();
     public static final FoodProperties SLIMECUBE = new FoodProperties.Builder().nutrition(2).saturationModifier(0.3f)
             .build();
+
 }
