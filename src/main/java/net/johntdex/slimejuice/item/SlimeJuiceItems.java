@@ -34,6 +34,10 @@ public class SlimeJuiceItems {
     //Colored Slime cubes
     public static final DeferredItem<Item> WHITE_SLIMECUBE = ITEMS.register("white_slime_cube",
             () -> new Item(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMECUBE)));
+    public static final DeferredItem<Item> LIGHT_GREY_SLIMECUBE = ITEMS.register("light_grey_slime_cube",
+            () -> new Item(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMECUBE)));
+    public static final DeferredItem<Item> GREY_SLIMECUBE = ITEMS.register("grey_slime_cube",
+            () -> new Item(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMECUBE)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

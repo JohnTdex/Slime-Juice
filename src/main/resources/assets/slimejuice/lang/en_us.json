@@ -10,5 +10,7 @@
   "item.slimejuice.light_grey_food_coloring": "Light Grey Food Coloring",
   "item.slimejuice.white_food_coloring": "White Food Coloring",
 
-  "item.slimejuice.white_slime_cube": "White Slime Cube"
+  "item.slimejuice.white_slime_cube": "White Slime Cube",
+  "item.slimejuice.light_grey_slime_cube": "Light Grey Slime Cube",
+  "item.slimejuice.grey_slime_cube": "Grey Slime Cube"
 }

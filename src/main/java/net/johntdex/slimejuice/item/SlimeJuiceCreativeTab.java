@@ -27,6 +27,8 @@ public class SlimeJuiceCreativeTab {
                         output.accept(SlimeJuiceItems.GREY_FOOD_COLORING);
                         output.accept(SlimeJuiceItems.DARK_FOOD_COLORING);
                         output.accept(SlimeJuiceItems.WHITE_SLIMECUBE);
+                        output.accept(SlimeJuiceItems.LIGHT_GREY_SLIMECUBE);
+                        output.accept(SlimeJuiceItems.GREY_SLIMECUBE);
                     }))
 
 
