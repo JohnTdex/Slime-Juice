@@ -26,9 +26,18 @@ public class SlimeJuiceCreativeTab {
                         output.accept(SlimeJuiceItems.LIGHT_GREY_FOOD_COLORING);
                         output.accept(SlimeJuiceItems.GREY_FOOD_COLORING);
                         output.accept(SlimeJuiceItems.DARK_FOOD_COLORING);
+                        output.accept(SlimeJuiceItems.BROWN_FOOD_COLORING);
+                        output.accept(SlimeJuiceItems.RED_FOOD_COLORING);
+                        output.accept(SlimeJuiceItems.ORANGE_FOOD_COLORING);
+                        output.accept(SlimeJuiceItems.YELLOW_FOOD_COLORING);
                         output.accept(SlimeJuiceItems.WHITE_SLIMECUBE);
                         output.accept(SlimeJuiceItems.LIGHT_GREY_SLIMECUBE);
                         output.accept(SlimeJuiceItems.GREY_SLIMECUBE);
+                        output.accept(SlimeJuiceItems.DARK_SLIMECUBE);
+                        output.accept(SlimeJuiceItems.BROWN_SLIMECUBE);
+                        output.accept(SlimeJuiceItems.RED_SLIMECUBE);
+                        output.accept(SlimeJuiceItems.ORANGE_SLIMECUBE);
+                        output.accept(SlimeJuiceItems.YELLOW_SLIMECUBE);
                     }))
 
 

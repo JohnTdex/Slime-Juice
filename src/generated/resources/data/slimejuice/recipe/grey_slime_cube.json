@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "slimejuice:grey_food_coloring"
+    },
+    "S": {
+      "item": "slimejuice:slime_cube"
+    }
+  },
+  "pattern": [
+    "F  ",
+    "SS ",
+    "SS "
+  ],
+  "result": {
+    "count": 4,
+    "id": "slimejuice:grey_slime_cube"
+  }
+}

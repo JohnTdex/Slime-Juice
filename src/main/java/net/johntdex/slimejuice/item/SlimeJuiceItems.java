@@ -29,6 +29,14 @@ public class SlimeJuiceItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> DARK_FOOD_COLORING = ITEMS.register("dark_food_coloring",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BROWN_FOOD_COLORING = ITEMS.register("brown_food_coloring",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RED_FOOD_COLORING = ITEMS.register("red_food_coloring",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ORANGE_FOOD_COLORING = ITEMS.register("orange_food_coloring",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> YELLOW_FOOD_COLORING = ITEMS.register("yellow_food_coloring",
+            () -> new Item(new Item.Properties()));
 
 
     //Colored Slime cubes
@@ -37,6 +45,16 @@ public class SlimeJuiceItems {
     public static final DeferredItem<Item> LIGHT_GREY_SLIMECUBE = ITEMS.register("light_grey_slime_cube",
             () -> new Item(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMECUBE)));
     public static final DeferredItem<Item> GREY_SLIMECUBE = ITEMS.register("grey_slime_cube",
+            () -> new Item(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMECUBE)));
+    public static final DeferredItem<Item> DARK_SLIMECUBE = ITEMS.register("dark_slime_cube",
+            () -> new Item(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMECUBE)));
+    public static final DeferredItem<Item> BROWN_SLIMECUBE = ITEMS.register("brown_slime_cube",
+            () -> new Item(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMECUBE)));
+    public static final DeferredItem<Item> RED_SLIMECUBE = ITEMS.register("red_slime_cube",
+            () -> new Item(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMECUBE)));
+    public static final DeferredItem<Item> ORANGE_SLIMECUBE = ITEMS.register("orange_slime_cube",
+            () -> new Item(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMECUBE)));
+    public static final DeferredItem<Item> YELLOW_SLIMECUBE = ITEMS.register("yellow_slime_cube",
             () -> new Item(new Item.Properties().food(SlimeJuiceFoodProperties.SLIMECUBE)));
 
     public static void register(IEventBus eventBus) {

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_slime_cube": {
+      "conditions": {
+        "items": [
+          {
+            "items": "slimejuice:grey_food_coloring"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "slimejuice:grey_slime_cube"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_slime_cube"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "slimejuice:grey_slime_cube"
+    ]
+  }
+}

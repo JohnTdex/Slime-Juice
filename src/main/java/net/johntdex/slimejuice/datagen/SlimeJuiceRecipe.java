@@ -123,6 +123,24 @@ public class SlimeJuiceRecipe extends RecipeProvider implements IConditionBuilde
                 .unlockedBy("has_slime_cube", has(SlimeJuiceItems.LIGHT_GREY_FOOD_COLORING.get()))
                 .save(recipeOutput, prefix("light_grey_slime_cube"));
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SlimeJuiceItems.GREY_SLIMECUBE.get(), 4)
+                .pattern("F  ")
+                .pattern("SS ")
+                .pattern("SS ")
+                .define('S', Ingredient.of(SlimeJuiceItems.SLIMECUBE.get()))
+                .define('F', Ingredient.of(SlimeJuiceItems.GREY_FOOD_COLORING.get()))
+                .unlockedBy("has_slime_cube", has(SlimeJuiceItems.GREY_FOOD_COLORING.get()))
+                .save(recipeOutput, prefix("grey_slime_cube"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SlimeJuiceItems.DARK_SLIMECUBE.get(), 4)
+                .pattern("F  ")
+                .pattern("SS ")
+                .pattern("SS ")
+                .define('S', Ingredient.of(SlimeJuiceItems.SLIMECUBE.get()))
+                .define('F', Ingredient.of(SlimeJuiceItems.DARK_FOOD_COLORING.get()))
+                .unlockedBy("has_slime_cube", has(SlimeJuiceItems.DARK_FOOD_COLORING.get()))
+                .save(recipeOutput, prefix("dark_slime_cube"));
+
 
 
     }
