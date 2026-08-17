@@ -38,6 +38,8 @@ public class SlimeJuiceCreativeTab {
                         output.accept(SlimeJuiceItems.RED_SLIMECUBE);
                         output.accept(SlimeJuiceItems.ORANGE_SLIMECUBE);
                         output.accept(SlimeJuiceItems.YELLOW_SLIMECUBE);
+                        output.accept(SlimeJuiceItems.WHITE_SLIMEJUICE);
+                        output.accept(SlimeJuiceItems.LIGHT_GREY_SLIMEJUICE);
                     }))
 
 

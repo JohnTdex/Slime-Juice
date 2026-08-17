@@ -15,5 +15,8 @@
   "item.slimejuice.light_grey_slime_cube": "Light Grey Slime Cube",
   "item.slimejuice.grey_slime_cube": "Grey Slime Cube",
   "item.slimejuice.dark_slime_cube": "Dark Slime Cube",
-  "item.slimejuice.brown_slime_cube": "Brown Slime Cube"
+  "item.slimejuice.brown_slime_cube": "Brown Slime Cube",
+
+  "item.slimejuice.white_slimejuice": "Milky Slime Juice",
+  "item.slimejuice.light_grey_slimejuice": "Vanishing Slime Juice"
 }

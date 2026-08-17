@@ -12,5 +12,9 @@ public class SlimeJuiceFoodProperties {
             .build();
     public static final FoodProperties SLIMECUBE = new FoodProperties.Builder().nutrition(2).saturationModifier(0.3f)
             .build();
+    public static final FoodProperties LIGHT_GREY_SLIMEJUICE  = new FoodProperties.Builder().nutrition(2).saturationModifier(0.5f)
+            .alwaysEdible()
+            .effect(() -> new MobEffectInstance(MobEffects.INVISIBILITY, 400), 1.0f)
+            .build();
 
 }
