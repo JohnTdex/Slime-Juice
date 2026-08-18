@@ -3,6 +3,7 @@ package net.johntdex.slimejuice.item;
 import net.johntdex.slimejuice.SlimeJuice;
 import net.johntdex.slimejuice.item.custom.DrinkableItem;
 import net.johntdex.slimejuice.item.custom.MilkBottleItem;
+import net.minecraft.world.entity.monster.Slime;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -64,7 +65,7 @@ public class SlimeJuiceItems {
     public static final DeferredItem<Item> WHITE_SLIMEJUICE = ITEMS.register("white_slimejuice",
             () -> new MilkBottleItem(new Item.Properties()));
     public static final DeferredItem<Item> LIGHT_GREY_SLIMEJUICE = ITEMS.register("light_grey_slimejuice",
-            () -> new DrinkableItem(new Item.Properties()));
+            () -> new DrinkableItem(new Item.Properties().food(SlimeJuiceFoodProperties.LIGHT_GREY_SLIMEJUICE)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
